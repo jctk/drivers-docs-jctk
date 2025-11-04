@@ -17,7 +17,7 @@ if (currentPath.startsWith('/drivers/')) {
   // Prepend 'drivers/' to match the content collection ID structure
   driverId = `drivers/${driverId}`;
 
-  const yamlFileName = `${driverId}-info.yaml`;
+  const yamlFileName = `${driverId}.yaml`;
   // Construct the absolute path to the YAML file relative to the project root
   // Assuming content/docs is at src/content/docs
   yamlPath = path.resolve(process.cwd(), `src/content/docs/${yamlFileName}`);
