@@ -72,15 +72,17 @@ To maintain a consistent look and feel across the documentation, please adhere t
 
 ### Driver Thumbnails
 
-*   **Path**: `/public/images/drivers/<Category>/<DriverTitle>.png`
-    *   Example: `/public/images/drivers/Mounts/EQMod.png`
+*   **Path**: `/public/images/drivers/<Category>/<DriverTitle>.webp`
+    *   Example: `/public/images/drivers/Mounts/EQMod.webp`
+*   **Format**: Must be `.webp`.
 *   **Recommended Size**: 200x200 pixels
 *   **Styling**: Images are styled with `width: 200px; height: 200px; object-fit: contain;`. This means images will be scaled down or up to fit within these dimensions while maintaining their aspect ratio.
 
 ### Manufacturer Logos
 
-*   **Path**: `/public/images/manufacturers/<ManufacturerName>.png`
-    *   Example: `/public/images/manufacturers/Sky Watcher.png`
+*   **Path**: `/public/images/manufacturers/<ManufacturerName>.webp`
+    *   Example: `/public/images/manufacturers/Sky Watcher.webp`
+*   **Format**: Must be `.webp`.
 *   **Recommended Size**: 200x200 pixels
 *   **Styling**: Images are styled with `width: 200px; height: 200px; object-fit: contain;`.
 

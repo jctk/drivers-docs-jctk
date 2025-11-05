@@ -1,0 +1,65 @@
+name: Validate Driver Documentation
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'src/content/docs/drivers/**'
+      - 'public/images/drivers/**'
+      - 'public/images/manufacturers/**'
+      - 'public/images/categories/**'
+
+jobs:
+  validate-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Validate driver documentation structure
+        run: |
+          # Check for one .md and one .yaml file per driver
+          find src/content/docs/drivers -mindepth 2 -maxdepth 2 -type d | while read -r category_dir; do
+            category_name=$(basename "$category_dir")
+            find "$category_dir" -mindepth 1 -maxdepth 1 -type d | while read -r driver_dir; do
+              driver_name=$(basename "$driver_dir")
+              md_files=$(find "$driver_dir" -maxdepth 1 -type f -name "*.md" | wc -l)
+              yaml_files=$(find "$driver_dir" -maxdepth 1 -type f -name "*.yaml" | wc -l)
+
+              if [ "$md_files" -ne 1 ]; then
+                echo "::error file=$driver_dir::Driver directory '$driver_dir' must contain exactly one .md file. Found $md_files."
+                exit 1
+              fi
+              if [ "$yaml_files" -ne 1 ]; then
+                echo "::error file=$driver_dir::Driver directory '$driver_dir' must contain exactly one .yaml file. Found $yaml_files."
+                exit 1
+              fi
+            done
+          done
+
+      - name: Validate image formats
+        run: |
+          # Check driver thumbnails
+          find public/images/drivers -type f ! -name "*.webp" -print0 | while IFS= read -r -d $'\0' file; do
+            echo "::error file=$file::Driver thumbnail '$file' must be in .webp format."
+            exit 1
+          done
+          # Check manufacturer logos
+          find public/images/manufacturers -type f ! -name "*.webp" -print0 | while IFS= read -r -d $'\0' file; do
+            echo "::error file=$file::Manufacturer logo '$file' must be in .webp format."
+            exit 1
+          done
+          # Check category icons
+          find public/images/categories -type f ! -name "*.webp" -print0 | while IFS= read -r -d $'\0' file; do
+            echo "::error file=$file::Category icon '$file' must be in .webp format."
+            exit 1
+          done

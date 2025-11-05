@@ -1,0 +1,31 @@
+name: Deploy Astro Documentation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Astro project
+        run: npm run build
+
+      - name: Deploy to server
+        run: |
+          # Example for SCP:
+          # scp -r dist/* user@your-server:/var/www/html/drivers.indilib.org/
+          echo "Deployment to server needs to be configured manually here."
+          echo "The 'dist' directory contains the built Astro project."
