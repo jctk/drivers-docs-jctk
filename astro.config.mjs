@@ -9,7 +9,7 @@ export default defineConfig({
   },
   integrations: [
     starlight({
-      title: 'Indi Drivers',
+      title: 'INDI Drivers Documentation',
       social: [
         {
           icon: 'github',
