@@ -329,7 +329,7 @@ public/images/categories/cameras.webp
 
 **Requirements:**
 - **Format**: Must be `.webp`
-- **Recommended Size**: 200x200 pixels
+- **Resolution**: Must be 300x300 pixels
 
 ## 3. URL Structure
 
