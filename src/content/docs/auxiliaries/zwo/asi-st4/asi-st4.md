@@ -1,6 +1,6 @@
 ---
 title: ASI ST4
-categories: ["auxiliary"]
+categories: ["auxiliaries"]
 description: ASI ST4
 thumbnail: ./sky-quality-meter.webp
 ---

@@ -1,11 +1,11 @@
 # Display Names (Human-Friendly - Required)
-driver_name: ASI ST4
-manufacturer_name: ZWO
+driver_name: Arduino Roof
+manufacturer_name: DIY
 
 # Categories (Required - can be multiple)
 categories:
-  - auxiliary
+  - auxiliaries
 
 # Additional Metadata (Optional)
-executable: indi_asi_st4
-version: 2.3
+executable: indi_roof
+version: 0.6

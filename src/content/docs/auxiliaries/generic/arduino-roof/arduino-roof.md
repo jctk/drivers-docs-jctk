@@ -1,8 +1,8 @@
 ---
-title: Arduino Servo
-categories: ["auxiliary"]
-description: Arduino Servo.
-thumbnail: ./arduino-servo.webp
+title: Arduino Roof
+categories: ["auxiliaries"]
+description: Arduino Roof.
+thumbnail: ./arduino-roof.webp
 ---
 
 > [!NOTE]

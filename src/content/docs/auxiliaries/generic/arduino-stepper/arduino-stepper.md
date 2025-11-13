@@ -1,6 +1,6 @@
 ---
 title: Arduino Stepper
-categories: ["auxiliary"]
+categories: ["auxiliaries"]
 description: Arduino Stepper.
 thumbnail: ./arduino-stepper.webp
 ---

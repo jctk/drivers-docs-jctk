@@ -1,9 +1,12 @@
 ---
-title: Arduino Roof
-categories: ["auxiliary"]
-description: Arduino Roof.
-thumbnail: ./arduino-roof.webp
+title: Arduino Simple Switcher
+categories: ["auxiliaries"]
+description: Arduino Simple Switcher.
+thumbnail: ./arduino-simple-switcher.webp
 ---
 
 > [!NOTE]
 > There is no available documentation for this driver. Please help us document this driver by submitting a [Pull Request](https://github.com/indilib/drivers-docs).
+
+
+
