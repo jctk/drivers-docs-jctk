@@ -1,0 +1,13 @@
+# Display Names (Human-Friendly - Required)
+driver_name: Pegasus PPBM
+manufacturer_name: Pegasus Astro
+
+# Categories (Required - can be multiple)
+categories:
+  - auxiliaries
+
+# Additional Metadata (Optional)
+executable: indi_pegasus_ppbm
+Family: auxiliaries
+version: 1.2
+

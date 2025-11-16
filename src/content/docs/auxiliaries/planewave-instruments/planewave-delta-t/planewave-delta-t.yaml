@@ -1,0 +1,14 @@
+# Display Names (Human-Friendly - Required)
+driver_name: PlaneWave Delta-T
+manufacturer_name: PlaneWave Delta-T
+
+# Categories (Required - can be multiple)
+categories:
+  - auxiliaries
+
+# Additional Metadata (Optional)
+executable: indi_pegasus_ppb
+Family: auxiliaries
+version: 1.1
+
+
