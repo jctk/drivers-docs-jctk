@@ -1,12 +1,10 @@
 ---
-title: DragonLIGHT
+title: DragonLIGHT Flat Panel Controller
 categories: ["auxiliaries"]
-description: DragonLIGHT.
-thumbnail: ./dragonlight.webp
+description: DragonLIGHT Flat Panel Controller.
+thumbnail: ./dragonlight-flat-panel-controller.webp
 ---
 
-
-# DragonLIGHT Flat Panel Controller
 
 ## Installation
 

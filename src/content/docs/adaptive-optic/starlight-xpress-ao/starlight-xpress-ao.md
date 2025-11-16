@@ -2,7 +2,7 @@
 title: Starlight Xpress AO
 categories: ["adaptive-optics"]
 description: Starlight Xpress AO.
-thumbnail: ./starlight-optic-ao.webp
+thumbnail: ./starlight-xpress-ao.webp
 ---
 
 

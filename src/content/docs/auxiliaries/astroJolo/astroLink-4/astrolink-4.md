@@ -2,9 +2,8 @@
 title: AstroLink 4
 categories: ["auxiliaries"]
 description: AstroLink 4.
-thumbnail: ./astroLink-4.webp
+thumbnail: ./astrolink-4.webp
 ---
-
 
 AstroLink 4
 Features
@@ -46,4 +45,3 @@ Settings
 settings
 
 Set the controller parameters.
-
