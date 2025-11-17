@@ -33,7 +33,7 @@ When running the driver for the first time, go to the  **Connection**  tab and s
 
 Connection support is based on the configuration of the firmware when built and installed on the controller. TCP/IP network connections are recommended but serial connections via USB is also supported.
 
-![Connection](https://stellarmate.com/images/devices/MyDCP4ESP32/connection.jpg)
+![Connection](./images/connection.webp)
 
 -   **Network**: WiFi connectivity in either Access Point Mode or Station Mode. Use TCP with the default port number of 3131. mDNS support is available with a default name of mydcp4esp32.local otherwise and IP address will need to be used. LAN Search if enable also works if you don't know the IP address.
 -   **Serial**: Serial connectivity via USB is supported with a default speed of 57,600 baud.
@@ -45,7 +45,7 @@ Connection support is based on the configuration of the firmware when built and 
 
 Under the options tab, you can configure parameters to optimize the operation of the dew controller.
 
-![Options](https://stellarmate.com/images/devices/MyDCP4ESP32/options.jpg)
+![Options](./images/options.webp)
 
 -   **Debug**: Not currently supported.
 -   **Configuration**: Load/Save/set to Default/Purge the configuration. Only the Connection and Polling settings are affected by this control. All other configuration information is automatically saved and recovered from the myDCP4ESP32 dew controller.
@@ -70,7 +70,7 @@ Under the options tab, you can configure parameters to optimize the operation of
 
 The main control tab is where the tracking mode used for setting the outputs of the dew controller is set and the primary information used by the controller is reported.
 
-![Main Control](https://stellarmate.com/images/devices/MyDCP4ESP32/main_control.jpg)
+![Main Control](./images/main_control.webp)
 
 -   **Connection**: Shows current connection state as well as the ability to  **Connect**  or  **Disconnect**.
 -   **Tracking**: Shows the current tracking mode as well as the ability to change the tracking mode. Details on the tracking modes and how they affect power output to the dew strap ports follows. The information is taken from the myDCP4ESP32 documentation, &copy Robert Brown.
@@ -91,7 +91,7 @@ The main control tab is where the tracking mode used for setting the outputs of 
     
     Power output to a dew controller channel is determined by the tracking mode and the adjusted temperature of channels temperature probe. The output is determined as indicated in the following table.
     
-    ![Tracking Algorithms](https://stellarmate.com/images/devices/MyDCP4ESP32/tracking_algorithms.jpg)
+    ![Tracking Algorithms](./images/tracking_algorithms.webp)
     
     #### Tracking Examples
     

@@ -24,17 +24,17 @@ There is no need to run the above command on StellarMate.
 
 ## Connection
 
-![gps connection](https://stellarmate.com/images/devices/gpsnmea/gps_connection.png)
+![gps connection](./images/gps_connection.webp)
 
 Before you connect, you must set the IP address of the GPS NMEA server. If you're using a phone to stream GPS data, find out the IP address of the phone and enter it in the Address field. Furthermore, enter the port used by your App to stream the data. The device where the driver is is running (StellarMate, RPI3..etc) must be on the same network as the phone you are trying to stream from. After you set the TCP information, go to Options and click Save under Configuration. Please note that phone IP addresses are usually subject to change so on your next connection you must reset the address field to whatever IP address currently used by your phone. After all data is set, and assuming your App is already running on your phone, click Connect to establish connection.
 
 ## Main Control
 
-![GPS NMEA Fix](https://stellarmate.com/images/devices/gpsnmea/gpsnmea_fix.png)
+![GPS NMEA Fix](./images/gpsnmea_fix.webp)
 
 When you first connect, a GPS fix is taken and it might take a while before the driver is synchronized to the GPS stream. If the driver remains in NO FIX busy mode for more than 30 seconds, click the  _GPS Refresh_  button to force a refresh.
 
-![gps main control](https://stellarmate.com/images/devices/gpsnmea/gps_main_control.png)
+![gps main control](./images/gps_main_control.webp)
 
 After a GPS fix is captured, the driver shall update the Location & Time properties. Depending on your client, you may need to configure your drivers and clients to synchronize with the GPS data. For KStars/Ekos, no additional action is necessary. After the fix is taken and Location/Time updated, the driver is no longer deemed necessary and can be disconnected for the current session.
 

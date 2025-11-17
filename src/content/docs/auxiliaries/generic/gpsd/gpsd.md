@@ -19,7 +19,7 @@ Make sure GPS is receiving data by running  _gpsmon_
 
 ## Operation
 
-![gpsd main control](https://stellarmate.com/images/devices/gpsd/gpsd_main_control.png)Upon connection, it should take a few seconds before the GPS fixed is usually obtained. Depending on your client, you might need to configure it to synchronize it with GPS data with the mount and other devices. KStars performs this synchronization automatically without requiring any further action from the user.
+![gpsd main control](./images/gpsd_main_control.webp)Upon connection, it should take a few seconds before the GPS fixed is usually obtained. Depending on your client, you might need to configure it to synchronize it with GPS data with the mount and other devices. KStars performs this synchronization automatically without requiring any further action from the user.
 
 ### What's difference between INDI GPSD (this driver) and INDI GPS NMEA drivers?
 

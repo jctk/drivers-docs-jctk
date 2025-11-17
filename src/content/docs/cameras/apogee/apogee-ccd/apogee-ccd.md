@@ -20,7 +20,7 @@ The Apogee driver should support all features of the Alta and Aspen cameras incl
 
 In order to use your Apogee camera in INDI the first step is to configure the CCD setting in a new profile or editing and existing one. Here is a new profile where we are selecting our CCD as an Apogee CCD.
 
-![config](https://stellarmate.com/images/devices/apogee-ccd/config.webp)
+![config](./images/config.webp)
 
 ## Operation
 
@@ -28,17 +28,17 @@ After configuring your profile to use an Apogee camera, connecting to INDI will 
 
 ### Main Control
 
-![maincontrol](https://stellarmate.com/images/devices/apogee-ccd/maincontrol.webp)
+![maincontrol](./images/maincontrol.webp)
 
 ### Options
 
-The Options tab contains various settings for simulation, default file locations, upload behavior and debugging.![options](https://stellarmate.com/images/devices/apogee-ccd/options.webp)
+The Options tab contains various settings for simulation, default file locations, upload behavior and debugging.![options](./images/options.webp)
 
 ### Image Settings
 
-The Image Settings tab contains default settings for binning, sub framing, compression and frame type. Frame type controls the shutter such that you can take dark and bias frames with the shutter closed. All these options are available in the Ekos CCD application, you could change them here to establish different start up defaults.![imagesettings](https://stellarmate.com/images/devices/apogee-ccd/imagesettings.webp)
+The Image Settings tab contains default settings for binning, sub framing, compression and frame type. Frame type controls the shutter such that you can take dark and bias frames with the shutter closed. All these options are available in the Ekos CCD application, you could change them here to establish different start up defaults.![imagesettings](./images/imagesettings.webp)
 
 ### Image Info
 
-The Image Info tab contains the read only details of the underlying CCD's dimensions, pixel size and bit depth.![image info](https://stellarmate.com/images/devices/apogee-ccd/image-info.webp)
+The Image Info tab contains the read only details of the underlying CCD's dimensions, pixel size and bit depth.![image info](./images/image-info.webp)
 

@@ -30,29 +30,29 @@ In order to use your Nightscape 8300 camera in INDI the first step is to configu
 
 After configuring your profile to use an Nighscape 8300 camera, connecting to INDI will create new tabs for your camera that contain your camera's detailed specifics. The driver only supports the Nighscape 8300 which uses a Kodak KAF-8300 chip via USB.
 
-### ![config](https://stellarmate.com/images/devices/nightscape/config.webp)
+### ![config](./images/config.webp)
 
 ### Main Control
 
-![maincontrol](https://stellarmate.com/images/devices/nightscape/maincontrol.webp)
+![maincontrol](./images/maincontrol.webp)
 
 ### Options
 
 The Options tab contains various settings for simulation, default file locations, upload behavior and debugging.
 
-![options](https://stellarmate.com/images/devices/nightscape/options.webp)
+![options](./images/options.webp)
 
 ### Image Settings
 
 The Image Settings tab contains default settings for binning, sub framing, compression and frame type. Frame type controls the shutter such that you can take dark and bias frames with the shutter closed. All these options are available in the Ekos CCD application, you could change them here to establish different start up defaults.
 
-![imagesettings](https://stellarmate.com/images/devices/nightscape/imagesettings.webp)
+![imagesettings](./images/imagesettings.webp)
 
 ### Image Info
 
 The Image Info tab contains the read only details of the underlying CCD's dimensions, pixel size and bit depth.
 
-## ![imageinfo](https://stellarmate.com/images/devices/nightscape/imageinfo.webp)
+## ![imageinfo](./images/imageinfo.webp)
 
 ## Special Features
 

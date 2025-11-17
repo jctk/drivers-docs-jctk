@@ -9,4 +9,12 @@ thumbnail: ./mydewcontrollerpro.webp
 
 # myDewControllerPro
 
-![alt text](myDewControllerPro3.png) ![alt text](myDewControllerPro4.png) ![alt text](myDewControllerPro5.png) ![alt text](myDewControllerPro6.png) ![alt text](myDewControllerPro.png)
+![alt text](./images/myDewControllerPro3.webp)
+
+![alt text](./images/myDewControllerPro4.webp)
+
+ ![alt text](./images/myDewControllerPro5.webp) 
+
+ ![alt text](./images/myDewControllerPro6.webp) 
+
+ ![alt text](./images/myDewControllerPro.webp)

@@ -21,6 +21,6 @@ By default, it connects to first gpio chip named gpiochip0. To change the active
 
 GPIO inputs and outputs are listed in the Input and Output tabs. Each GPIO label can be customized and retained for future sessions. The property names start from  DIGITAL_INPUT_1 or DIGITAL_OUTPUT_1. Do not confuse this naming scheme with GPIO numbers.
 
-[![thumb input](https://stellarmate.com/images/devices/gpio/thumbnails/thumb_input.png)](https://stellarmate.com/images/devices/gpio/input.png)
+![thumb input](./images/thumb_input.webp)
 
 When used as an Input/Output driver in another driver, like the Universal ROR driver, use the DIGITAL_INPUT or DIGITAL_OUTPUT indexes accordingly. The driver does not retain the GPIO config on restart.

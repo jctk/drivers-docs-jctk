@@ -14,13 +14,13 @@ Second, if no heat required, USB_Dewpoint only uses 0.05W to run. It connects to
 
 ## Main controls
 
-![](http://s2.org/~jpaana/usb_dewpoint/main_control.webp)
+![](./images/main_control.webp)
 
 Main controls show information about current device state and allow for manual control of the power to the three output channels (0-100%). In automatic operating mode the values are essentially read-only as the device controls them itself based on temperature readings. Temperatures and humidity are read from the device every 10 seconds.
 
 ## Options
 
-![](http://s2.org/~jpaana/usb_dewpoint/options.webp)
+![](./images/options.webp)
 
 Values shown here are the device defaults which are restored if "Reset" button is pressed. All settings are automatically written to the device EEPROM so they are retained even if the device is used completely autonomously without computer.
 
@@ -33,6 +33,6 @@ Individual options do:
 -   Reset button resets all values to device defaults shown here
 
 In automatic mode the device tries to keep channel temperature above dew point plus threshold like shown in this picture from the Windows driver manual (I think the equations are wrong way around, they should be Temp1-Dewpoint, but the idea is clear):  
-![](http://s2.org/~jpaana/usb_dewpoint/threshold.webp)
+![](./images/threshold.webp)
 
 <h2

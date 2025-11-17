@@ -21,13 +21,13 @@ The Astromechanics Light Pollution Meter is a handheld / PC based monitoring too
 -   Record file: directory and filename to store measurement log of LPM.
 -   Save and Discard readings.
 
-![Main Control Panel](https://stellarmate.com/images/devices/lpm/main_control.png)
+![Main Control Panel](./images/main_control.webp)
 
 ### Connection
 
 The USB connection is made on the default port, or by autosearch. The device is recognized as a USB Serial converter. Baudrate at 9600 is mandatory.
 
-![Connection](https://stellarmate.com/images/devices/lpm/connection.png)
+![Connection](./images/connection.webp)
 
 ### Options
 
@@ -35,10 +35,10 @@ Polling period in ms.
 
 No additional option as been implemented. Debug mode and configuration files are available.
 
-![Options](https://stellarmate.com/images/devices/lpm/options.png)
+![Options](./images/options.webp)
 
 ### Unit
 
 Unit factory calibration data.
 
-![Unit](https://stellarmate.com/images/devices/lpm/unit.png)
+![Unit](./images/unit.webp)
