@@ -1,8 +1,8 @@
 ---
-title: GPSUB
+title: GPUSB
 categories: ["auxiliaries"]
 description: Sky Quality Meter
-thumbnail: ./gpsub.webp
+thumbnail: ./gpusb.webp
 ---
 
 
