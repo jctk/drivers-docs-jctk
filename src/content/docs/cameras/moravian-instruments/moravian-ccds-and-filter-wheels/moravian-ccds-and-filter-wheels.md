@@ -2,7 +2,7 @@
 title: MI CCD
 categories: ["cameras"]
 description: MI CCD
-thumbnail: ./moravian-ccds-&-filter-wheels.webp
+thumbnail: ./moravian-ccds-and-filter-wheels.webp
 ---
 
 ## Features

@@ -2,7 +2,7 @@
 title: iNova PLX
 categories: ["cameras"]
 description: iNova PLX.
-thumbnail: ./inova-plx.webp
+thumbnail: ./i-nova-plx.webp
 ---
 
 

@@ -1,8 +1,8 @@
 ---
-title: Atik Cameras & Filter Wheels
+title: Atik Cameras and Filter Wheels
 categories: ["Cameras"]
-description: Atik Cameras & Filter Wheels
-thumbnail: ./atik-cameras-&-filter-wheels.webp
+description: atik-cameras-and-filter-wheels
+thumbnail: ./atik-cameras-and-filter-wheels.webp
 ---
 
 # 

@@ -4,5 +4,5 @@ categories: ["cameras"]
 manufacturer_name: Bresser
 
 # Additional Metadata
-executable:indi_bressercam_ccd
+executable: indi_bressercam_ccd
 version: 2.1
