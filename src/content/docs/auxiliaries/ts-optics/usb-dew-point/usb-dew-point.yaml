@@ -1,0 +1,16 @@
+# Display Names (Human-Friendly - Required)
+driver_name: USB_Dewpoint
+manufacturer_name: Ts Optics
+
+# Categories (Required - can be multiple)
+categories:
+  - auxiliaries
+
+# Additional Metadata (Optional)
+executable: indi_sqm_weather
+Website: www.usb-foc.us/page/homepage
+Family: Weather
+Platforms: Linux, OSX, BSD
+Author: Jarno Paananen
+version: 1.0
+

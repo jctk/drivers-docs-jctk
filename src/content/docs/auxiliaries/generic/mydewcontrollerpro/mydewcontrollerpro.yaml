@@ -1,0 +1,15 @@
+# Display Names (Human-Friendly - Required)
+driver_name: myDewControllerPro
+manufacturer_name: Generic
+
+# Categories (Required - can be multiple)
+categories:
+  - auxiliaries
+
+# Additional Metadata (Optional)
+executable: indi_myDewControllerPro
+Author: Chemistorge, Robert Brown
+version: 1.0
+
+
+
