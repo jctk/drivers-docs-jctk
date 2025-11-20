@@ -8,7 +8,7 @@ export const CATEGORIES = {
     "focusers": "Focusers",
     "lightboxes": "Light Boxes",
     "mounts": "Mounts",
-    "power-controllers": "Power Controllers",
+    "observatory-controllers": "Power Controllers",
     "rotators": "Rotators",
     "weather-stations": "Weather Stations",
 } as const;

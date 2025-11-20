@@ -171,7 +171,7 @@ src/content/docs/
 - `focusers` - Focuser controllers
 - `lightboxes` - Flat panel/light box devices
 - `mounts` - Telescope mounts
-- `power-controllers` - Power distribution and control
+- `observatory-controllers` - Power distribution and control
 - `rotators` - Camera rotators
 - `weather-stations` - Weather monitoring stations
 
