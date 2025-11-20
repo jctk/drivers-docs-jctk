@@ -1,6 +1,6 @@
 ---
 title: Pegasus UPB
-categories: ["power-controllers"]
+categories: ["observatory-controllers"]
 description: Pegasus UPB
 thumbnail: ./pegasus-ultimate-power-box.webp
 ---
