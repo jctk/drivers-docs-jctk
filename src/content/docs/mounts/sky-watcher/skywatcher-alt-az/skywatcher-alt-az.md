@@ -35,7 +35,7 @@ Connect a USB cable from the mount  **directly**  to a USB port on your PC or St
 
 For AZ-GTi mounts in Alt-Az configuration, connect from the RJ12 port to PC/StellarMate using a proper cable.
 
-![51eoYbLUcnL. AC SX679 ](./images/51eoYbLUcnL._AC_SX679_.webp)
+![51eoYbLUcnL. AC SX679 ](./images/10.webp)
 
 ### 2. Network (WiFi)
 
@@ -53,7 +53,7 @@ Note that the protocol is UDP and will not work if set to TCP. Presently, all Sk
 
 ### 3. First Time Connecting
 
-![SkyWatcherAltAzMount INDI Options Panel](./images/5.webp)
+![SkyWatcherAltAzMount INDI Options Panel](./images/4.1.webp)
 
 Enter the appropriate information into the **Connection** tab when running the driver for the first time, then select the **Options** tab and press **SAVE** to save the settings. You may also wish to enter telescope or accessory information in this tab. KStars, Ekos and other programs may make use of these data if provided. If you change settings in future, always remember to return to the **Options** tab to save your settings again.
 
@@ -61,7 +61,7 @@ Enter the appropriate information into the **Connection** tab when running the d
 
 ### Main Control
 
-![SkyWatcherAltAzMount indi Main Control](./images/6.webp)
+![SkyWatcherAltAzMount indi Main Control](./images/5.webp)
 
 It is most practical to use Ekos or some other INDI client to control the mount, however some basic functions may be performed in the INDI Control Panel. The  **Main Control**  tab shows the current connection and park status. The "Connection" indicator must be green and the mount listed as UnParked for the driver to execute any motion commands. While it may not seem necessary for parking/unparking to be implemented on what is typically a portable mount, parking the scope at the end of the session and unparking it at the beginning of a session may improve initial slew accuracy and may be required for more permanent installations in a domed or automated roof environment. UnPark does not move the mount, however Park will slew the mount and return it to its parked position (horizontal, pointing North).
 
@@ -75,7 +75,7 @@ The  **Alignment**  tab in the default configuration show show one green indicat
 
 ### Motion Control
 
-![SkyWatcherAltAzMount INDI Motion Control](./images/7.webp)
+![SkyWatcherAltAzMount INDI Motion Control](./images/6.webp)
 
 The "Motion N/S," (North/South) and "Motion W/E" "West/East" may be used to start the scope slewing at the listed "Slew Rate." If you are not using a Joystick or INDI Client with a mount simulator, it may be necessary to press the "Abort Motion" Abort button on the Main Control tab to stop the slew. It is not intended for fine adjustments.
 
@@ -89,18 +89,18 @@ Mounts without SoftPEC may enable "SoftPEC Mode" for tracking. Otherwise, the de
 
 ### Site Management
 
-![SkyWatcherAltAzMount INDI Site Management Tab](./images/8.webp)
+![SkyWatcherAltAzMount INDI Site Management Tab](./images/7.webp)
 
 It is critical that the information in the Site Management tab is accurate. KStars-Ekos, GPS add-on devices and some clients will populate these fields if properly configured, however some clients will not. If the startup time/date and Lat/Lon values are incorrect or missing, accurate pointing will not be possible.
 
 ### Detailed Mount Information
 
-![SkyWatcherAltAzMount INDI Detailed Mount Information Tab](./images/9.webp)
+![SkyWatcherAltAzMount INDI Detailed Mount Information Tab](./images/8.webp)
 
 The  **Detailed Mount Information**  tab is primarily detail for troubleshooting. It shows real-time process during mount operations. The data elements displayed are polled from the mount by the indi driver upon startup.
 
 ### Guide
 
-![SkyWatcherAltAzMount indi Guide](./images/10.webp)
+![SkyWatcherAltAzMount indi Guide](./images/9.webp)
 
 The  **Guide**  tab is for entries of minor adjustments to the pulse guiding system. In most cases, these adjustments are best made within the guiding software. Use with care.
