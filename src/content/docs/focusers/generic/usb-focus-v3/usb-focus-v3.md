@@ -12,7 +12,7 @@ You can use other motors but only bipolar.
 
 ## Main Control Tab
 
-![usbfocusv3 main](.m/images/usbfocusv3_main.webp)
+![usbfocusv3 main](./images/usbfocusv3_main.webp)
 
 Control the focuser position. Before use, set the 0 position with the focuser fully in, then move fully out and the set value for Max. Position.
 
