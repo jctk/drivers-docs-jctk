@@ -25,7 +25,7 @@ Mount should be in the Park Position (scope horizontal, pointing North) prior to
 
 To ensure proper mount operation and pointing accuracy, connect to mount using either Synscan App OR INDI driver - never both simultaneously. For initial alignment, first perform alignment using Synscan App, then fully disconnect Synscan App before connecting and controlling mount via INDI driver. Running both control systems concurrently will compromise the pointing system and may result in inaccurate GOTO operations.
 
-## There are basically two way to connect your mount to your computer (PC or Raspberry PI/StellarMate): Direct serial cable or Network. In either case you are directly connecting to the motor controller of the mount and the driver does not utilize the services of the Synscan Hand Controller or Synscan app.
+There are basically two way to connect your mount to your computer (PC or Raspberry PI/StellarMate): Direct serial cable or Network. In either case you are directly connecting to the motor controller of the mount and the driver does not utilize the services of the Synscan Hand Controller or Synscan app.
 
 ### 1. USB
 
