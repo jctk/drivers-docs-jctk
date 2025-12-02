@@ -35,7 +35,7 @@ Connect a USB cable from the mount  **directly**  to a USB port on your PC or St
 
 For AZ-GTi mounts in Alt-Az configuration, connect from the RJ12 port to PC/StellarMate using a proper cable.
 
-![51eoYbLUcnL. AC SX679 ](./images/10.webp)
+![51eoYbLUcnL. AC SX679 ](./images/2.1.webp)
 
 ### 2. Network (WiFi)
 
