@@ -46,7 +46,7 @@ The ASI EAF driver is now synchronised and configured to the device and can be u
 
 ### Main Control Tab
 
-![Screenshot_2021-09-03_at_16.47.23.png](https://indilib.org/images/Screenshot_2021-09-03_at_16.47.23.png)
+![Screenshot_2021-09-03_at_16.47.23.png](./images/1.webp)
 
 The  **Main Control**  tab displays and sets the main parameters for the device:
 
@@ -63,7 +63,7 @@ The  **Main Control**  tab displays and sets the main parameters for the device:
 
 ### General Info Tab
 
-![Screenshot_2021-09-03_at_16.47.47.png](https://indilib.org/images/Screenshot_2021-09-03_at_16.47.47.png)
+![Screenshot_2021-09-03_at_16.47.47.png](./images/2.webp)
 
 The  **General Info**  tab displays information about the EAF and the Indi driver.
 
@@ -72,7 +72,7 @@ The  **General Info**  tab displays information about the EAF and the Indi drive
 
 ### Options Tab
 
-![Screenshot_2021-09-03_at_16.48.08.png](https://indilib.org/images/Screenshot_2021-09-03_at_16.48.08.png)
+![Screenshot_2021-09-03_at_16.48.08.png](./images/3.webp)
 
 The  **Options**  tab allows the EAF options:
 
@@ -88,7 +88,7 @@ The  **Options**  tab allows the EAF options:
 
 ### Presets Tab
 
-![Screenshot_2021-09-03_at_16.48.42.png](https://indilib.org/images/Screenshot_2021-09-03_at_16.48.42.png)
+![Screenshot_2021-09-03_at_16.48.42.png](./images/4.webp)
 
 The  **Presets**  tab allows a number of focuser settings to be configured and then called up.
 

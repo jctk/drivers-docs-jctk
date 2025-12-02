@@ -9,7 +9,7 @@ thumbnail: ./moonlite-focus.webp
 
 The MoonLite focuser is a high resolution stepper motor and uses a premium, low backlash Hurst stepper motor. This provides very fine .00008" resolution and accurate position repeatability required for today's high end imaging systems. You can control the focuser absolute & relative positions. It is recommended that the focuser is completely retracted when powered on as the focuser can only be operated in FOCUS OUT mode at this stage. You can set the temperature calibration and coefficient settings and enable/disable temperature compensation accordingly.
 
-![MoonLite INDI Control Panel](https://indilib.org/images/indi/moonlite_focus.png)
+![MoonLite INDI Control Panel](./images/control.webp)
 
 ### Main Control Tab
 

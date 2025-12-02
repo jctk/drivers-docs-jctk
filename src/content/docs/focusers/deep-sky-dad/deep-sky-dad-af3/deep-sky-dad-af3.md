@@ -18,7 +18,7 @@ DeepSkyDad AF3 is based on customer feedback and our experience with AF1/AF2. It
 -   **Reverse Motion**: reverse direction of the motor, if focus in/focus out are reversed in relation to the focuser physical movement(depends on how the autofocuser is mounted).
 -   **Max. movement**: maximum position change in a single movement (in steps).
 
-![](https://indilib.org/media/com_mtree/images/listings/o/208.png)![](https://stellarmate.com/media/com_mtree/images/listings/o/208.png)
+![](./images//control.webp)
 
 ### Presets
 
