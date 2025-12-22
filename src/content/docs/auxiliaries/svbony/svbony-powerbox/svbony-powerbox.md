@@ -83,7 +83,7 @@ REGULATED OUT を操作できます。
 
 ## USB
 
-![USB](./images/USB.webp)
+![USB](./images/usb.webp)
 
 USBコネクタ Type-Cおよび1から5 を操作できます。
 
