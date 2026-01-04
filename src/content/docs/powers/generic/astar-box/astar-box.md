@@ -1,6 +1,6 @@
 ---
 title: AStarBox Indi Driver
-categories: ["power"]
+categories: ["powers"]
 description: AStarBox Indi Driver
 thumbnail: ./astar-box.webp
 ---

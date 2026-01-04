@@ -1,7 +1,7 @@
 ---
-title: OpenWeatherMap
+title: Weather meta
 categories: ["weather-stations"]
-description: OpenWeatherMap
+description: Weather meta
 thumbnail: ./weather-meta.webp
 ---
 ## Features

@@ -1,6 +1,6 @@
 ---
 title: Optec Gemini Focusing Rotator
-categories: ["rotator"]
+categories: ["rotators"]
 description: Optec Gemini Focusing Rotator
 thumbnail: ./gemini-focuser.webp
 ---

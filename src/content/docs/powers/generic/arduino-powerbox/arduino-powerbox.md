@@ -1,6 +1,6 @@
 ---
 title: Arduino Power Box
-categories: ["power"]
+categories: ["powers"]
 description: Arduino Power Box
 thumbnail: ./arduino-powerbox.webp
 ---

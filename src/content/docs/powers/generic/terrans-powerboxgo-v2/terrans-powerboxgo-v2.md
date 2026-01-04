@@ -1,6 +1,6 @@
 ---
 title: Terrans PowerBoxGo V2
-categories: ["power"]
+categories: ["powers"]
 description: Terrans PowerBoxGo V2
 thumbnail: ./terrans-powerboxgo-v2.webp
 ---

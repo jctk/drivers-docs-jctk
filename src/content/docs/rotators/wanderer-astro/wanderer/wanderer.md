@@ -1,6 +1,6 @@
 ---
 title: Pegasus Falcon Rotator
-categories: ["rotator"]
+categories: ["rotators"]
 description: Pegasus Falcon Rotator
 thumbnail: ./wanderer.webp
 ---

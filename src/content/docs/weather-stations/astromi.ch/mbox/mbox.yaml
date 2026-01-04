@@ -9,6 +9,3 @@ executable: indi_mbox_weather
 platforms: Linux, MacOS, BSD
 author: Jasem Mutlaq
 version: 1.0
-
-
-
