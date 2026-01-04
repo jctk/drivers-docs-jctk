@@ -1,6 +1,6 @@
 ---
 title: Pegasus Ultimate Power Box
-categories: ["power"]
+categories: ["powers"]
 description: Pegasus Ultimate Power Box
 thumbnail: ./pegasus-upb.webp
 ---
