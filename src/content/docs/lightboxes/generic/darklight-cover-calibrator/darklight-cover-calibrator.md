@@ -1,6 +1,6 @@
 ---
 title: DarkLight Cover Calibrator
-categories: ["lightboxes"]
+categories: ["lightboxes", "dustcaps"]
 description: DarkLight Cover Calibrator
 thumbnail: ./darklight-cover-calibrator.webp
 ---

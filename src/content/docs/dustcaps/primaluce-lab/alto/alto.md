@@ -1,6 +1,6 @@
 ---
 title: Primaluce ALTO
-categories: ["lightboxes"]
+categories: ["dustcaps"]
 description: Primaluce ALTO
 thumbnail: ./alto.webp
 ---

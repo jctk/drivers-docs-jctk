@@ -1,6 +1,6 @@
 ---
 title: WandererCover V4-EC
-categories: ["lightboxes"]
+categories: ["lightboxes", "dustcaps"]
 description: WandererCover V4-EC
 thumbnail: ./wanderercover-v4-ec.webp
 ---

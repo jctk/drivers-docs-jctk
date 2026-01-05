@@ -1,6 +1,6 @@
 ---
 title: Alnitak Flip-Flat & Flat-Man
-categories: ["lightboxes"]
+categories: ["lightboxes", "dustcaps"]
 description: FlipFlat
 thumbnail: ./flipflat.webp
 ---

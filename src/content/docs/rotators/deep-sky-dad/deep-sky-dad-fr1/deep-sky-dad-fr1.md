@@ -1,6 +1,6 @@
 ---
 title: Deep Sky Dad FR1
-categories: ["focusers"]
+categories: ["rotators"]
 description: Deep Sky Dad FR1
 thumbnail: ./deep-sky-dad-fr1.webp
 ---

@@ -1,6 +1,6 @@
 ---
 title: Esatto Arco
-categories: ["focusers"]
+categories: ["focusers", "rotators"]
 description: Esatto Arco
 thumbnail: ./esatto-arco.webp
 ---

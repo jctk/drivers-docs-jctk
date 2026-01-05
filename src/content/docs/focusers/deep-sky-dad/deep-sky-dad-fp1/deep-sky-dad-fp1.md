@@ -2,7 +2,7 @@
 title: Deep Sky Dad FP1
 categories: ["focusers"]
 description: Deep Sky Dad FP1
-thumbnail: ./deep-sky-dad.webp
+thumbnail: ./deep-sky-dad-fp1.webp
 ---
 
 ## Features

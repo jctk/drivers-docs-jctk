@@ -1,6 +1,6 @@
 ---
 title: Wanderer Cover V3
-categories: ["lightboxes"]
+categories: ["lightboxes", "dustcaps"]
 description: Wanderer Cover V3
 thumbnail: ./wanderer-cover-v3.webp
 ---

@@ -1,6 +1,6 @@
 ---
 title: Gemini SnapCap
-categories: ["lightboxes"]
+categories: ["lightboxes", "dustcaps"]
 description: Gemini SnapCap
 thumbnail: ./gemini-snapcap.webp
 ---
