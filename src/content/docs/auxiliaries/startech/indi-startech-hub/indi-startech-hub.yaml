@@ -1,0 +1,14 @@
+# Display Names
+driver_name: Startech 7-port Managed USB Hub
+manufacturer_name: Startech
+
+# Categories
+categories:
+- auxiliares
+
+# Additional Metadata (Optional)
+website: www.indlib.org
+executable: indi_startech_hub
+platforms: Linux, BSD, OSX
+author: M. Baroncini
+version: 1.1
