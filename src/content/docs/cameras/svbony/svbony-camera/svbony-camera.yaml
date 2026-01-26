@@ -4,7 +4,7 @@ categories: ["cameras"]
 manufacturer_name: SVBONY
 
 # Additional Metadata (Optional)
-executable: indi_sx_ccd
+executable: indi_svbony_ccd
 Family: CCD
 Platforms: Linux, MacOS
 Author: Blaise-Florentin Collin, Tetsuya Kakura
