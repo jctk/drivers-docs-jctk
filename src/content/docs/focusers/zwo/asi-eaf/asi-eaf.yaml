@@ -5,7 +5,7 @@ manufacturer_name: ZWO
 
 # Additional Metadata
 Website: astronomy-imaging-camera.com
-executable: indi_tscam_focuser
+executable: indi_asi_focuser
 Platforms: Unix, Mac
 version: 1.0
 
